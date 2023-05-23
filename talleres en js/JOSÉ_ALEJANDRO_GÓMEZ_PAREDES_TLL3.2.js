@@ -1,6 +1,20 @@
-Ln_valor = 10;
-while (Ln_valor != 0) {
-  console.log("hola");
-  Ln_valor--;
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+function leerValor() {
+  rl.question("Introduce un valor: ", (valor) => {
+    if (parseFloat(valor) !== 0) {
+      console.log("hola");
+      leerValor();
+    } else {
+      console.log("Fin del programa");
+      rl.close();
+    }
+  });
 }
-console.log("fin del programa");
+
+leerValor();
