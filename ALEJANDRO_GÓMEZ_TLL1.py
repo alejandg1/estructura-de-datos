@@ -10,7 +10,7 @@ import math
 
 Lv_Cadena1 = "Hola mundo"
 Lv_Cadena2= 'hola mundo'
-Lv_Cadena3= 'según lo que la compañeradijo: " Yo no fui"'
+Lv_Cadena3= 'según lo que la compañera dijo: " Yo no fui"'
 Lv_Cadena4= "El valor del iva es: '0,12'"
 
 
@@ -65,7 +65,7 @@ print("-------------")
 
 # asignación  
 
-Lv_Variable= 2.3,
+Lv_Variable = 2.3,
 
 print(type(Lv_Variable))
 print("-------------")

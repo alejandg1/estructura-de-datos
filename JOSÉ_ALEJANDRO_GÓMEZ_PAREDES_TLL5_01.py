@@ -7,7 +7,7 @@ Fl_Ruta_File = Path("C:/Users/UNEMI/Pictures/Nueva carpeta/Arcivo190523_01.txt")
 
 # obtener ruta general absoluta
 Lf_Ruta_Absoluta=Fl_Ruta_File.absolute()
-#print(Lf_Ruta_Absoluta)
+print(Lf_Ruta_Absoluta)
 
 # verificar si una ruta existe
 Lb_Existe = Fl_Ruta_File.exists()

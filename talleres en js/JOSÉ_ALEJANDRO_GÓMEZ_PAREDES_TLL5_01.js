@@ -1,14 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const Fl_Ruta_File = path.join(
-  "C:",
-  "Users",
-  "UNEMI",
-  "Pictures",
-  "Nueva carpeta",
-  "Arcivo190523_01.txt"
-);
+const Fl_Ruta_File =
+  "C:/Users/UNEMI/Pictures/Nueva carpeta/Arcivo190523_01.txt";
 
 const Lf_Ruta_Absoluta = path.resolve(Fl_Ruta_File);
 console.log(Lf_Ruta_Absoluta);
